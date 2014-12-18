@@ -24,7 +24,7 @@ $socket->on('connection', function ($conn) use ($users, &$i) {
 				if ($user->id == $conn->id) {
 					continue;
 				}
-				$user->write(sprintf('[%s]', $conn->username));
+
 				$user->write(sprintf('[%s] %s', $conn->username, $message));
 
 			}
