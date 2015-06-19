@@ -34,9 +34,9 @@ $socket->on('connection', function ($conn) use ($users, &$i) {
 	$users->attach($conn);
 });
 if ($socket) {
-	echo "Socket server listening on port 1211.\n";
-	echo "You can connect to it by running in other terminal: netcat localhost 1211\n";
+	echo "Socket server listening on port 2384.\n";
+	echo "You can connect to it by running in other terminal: netcat localhost 2384\n";
 }
 
-$socket->listen(1211);
+$socket->listen(2384);
 $loop->run();
