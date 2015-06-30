@@ -1,6 +1,6 @@
 # Simple Example of a Event Driven on php
 
-The idea here is to show one chat implementation of React Php
+The idea here is to show one chat implementation with React Php
 
 ##[React php](http://reactphp.org "Please Check") Link.
 
@@ -19,8 +19,8 @@ Execute the chat.php file in your terminal
 
 	$ php chat.php
 
-###The server will be running on 1211 port
-###To test , please open others terminals stations and execute:
+## The server will be running on 1211 port
+## To test , please open others terminals stations and execute:
 
 	$ nc localhost 1211
     
