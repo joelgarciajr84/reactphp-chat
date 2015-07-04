@@ -30,7 +30,6 @@ $socket->on('connection', function ($conn) use ($users, &$i) {
 			}
 		}
 	});
-
 	$users->attach($conn);
 });
 if ($socket) {
