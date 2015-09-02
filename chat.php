@@ -7,7 +7,6 @@ $socket = new React\Socket\Server($loop);
 
 $users = new SplObjectStorage();
 $i = 0;
-
 #Connections
 $socket->on('connection', function ($conn) use ($users, &$i) {
 	$conn->id = ++$i;
