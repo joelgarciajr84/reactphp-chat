@@ -11,6 +11,9 @@ The idea here is to show one chat implementation with React Php
     
 and please run
 
+$curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
+
+
     $ composer install
 
 ## For use
